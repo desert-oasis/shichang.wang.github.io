@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shichang Wang - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <span class="logo">Shichang Wang</span>
+        <div class="nav-links">
+            <a href="index.html" style="font-weight:bold; color:#000;">Home</a>
+            <a href="publications.html">Publications</a>
+            <!-- <a href="#talks">Talks</a> -->
+            <!-- <a href="#teaching">Teaching</a> -->
+            <a href="research_project.html">Research Projects</a>
+            <a href="personal.html">Personal</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="intro-section">
+            <div class="intro-text">
+                <p>I am a Research Fellow at Nanyang Technological University (supervised by 
+                    <a href="https://guo.crypto.sg" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Prof. Jian Guo</a>
+                ). 
+                My research focus is on cryptography, especially design of cryptanalysis of symmetric primitives: stream ciphers, block ciphers, and hash functions.</p>
+                
+                <p>Previously, I completed my PhD at University of Chinese Academy of Sciences (supervised by
+                    <a href="https://people.ucas.ac.cn/~ddlin?language=en" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Prof. Dongdai Lin</a>
+                ), 
+                and my bachelor's degree at Shandong University. I am a recipient of CAS President Award, Zhu Li Yuehua Award. </p>
+                <!-- , and Best Paper Award of Inscrypt 2024.</p> -->
+                
+                <!-- <p><strong>Prospective Students:</strong> [Your policy about students, e.g., "I am looking for motivated PhD students..."]</p> -->
+
+                <h3>Contact:</h3>
+                <p>
+                    Email: shichang.wang@ntu.edu.sg <br>
+                    Office: SPMS-05-38, NTU
+                </p>
+            </div>
+            
+            <div class="intro-image">
+                <img src="avatar.jpg" alt="Your Portrait">
+            </div>
+        </div>
+
+        <hr>
+
+        <section id="interests">
+        <h2 class="section-title">Research Interests</h2>
+
+        <div class="interest-item">
+            <div class="interest-image">
+                <img src="assets/arx.png" alt="ARX ciphers">
+            </div>
+            <div class="interest-content">
+                <h3>Design and analysis of ARX-based ciphers</h3>
+                <p>ARX-based ciphers — are widely used due to their simplicity and efficiency, such as SHA-2 and ChaCha employed in the real world. In ARX ciphers, their update function involves (only) three operations: (A) modular addition, (R) rotation with fixed rotation amounts, and (X) XOR. 
+
+                There are lots of famous ARX designs, for example, MD4/5, SHA-1/2, BLAKE, ChaCha, Speck, LEA et al. As far, many cryptanalysis methods are developed for ARX ciphers, with meet-in-the-middle, differential-linear attacks standing out as the most significant and powerful methods of the cryptanalysis.
+                </p>
+            </div>
+        </div>
+
+        <div class="interest-item">
+            <div class="interest-image">
+                <img src="assets/sbox.png" alt="S-box ciphers">
+            </div>
+            <div class="interest-content">
+                <h3>Design and analysis of Sbox-based ciphers</h3>
+                <p>From DES to AES, S-boxes have played an important role in the design of symmetric-key ciphers. Modern S-box-based ciphers commonly employ iterative structures such as Feistel networks and substitution-permutation networks (SPNs), and Sponge constructions.
+                Differential and linear cryptanalysis remain two fundamental approaches to analyzing these constructions, together with their numerous generalizations and combinations, including truncated differential, impossible differential, nonlinear, and differential-linear attacks.
+                </p>
+            </div>
+        </div>
+
+        <div class="interest-item">
+            <div class="interest-image">
+                <img src="assets/lfsr.png" alt="(L)FSR ciphers">
+            </div>
+            <div class="interest-content">
+                <h3>Analysis of (L)FSR-based ciphers</h3>
+                <p>Linear feedback shift registers (LFSRs) and feedback shift registers (FSRs) have long played a fundamental role in the design of stream ciphers due to their simple structure, efficient implementation, and desirable statistical properties.
+                Various constructions have been developed based on (L)FSRs, including nonlinear filtering, nonlinear combination, and irregular clocking. Their security has been extensively studied through correlation attacks, algebraic attacks, and related techniques. In particular, fast correlation attacks exploit statistical dependencies between the keystream and the underlying LFSR sequences.
+                </p>
+            </div>
+        </div>
+        </section>
+
+        <section id="interests">
+        <h2 class="section-title">Manuscripts</h2>
+        <div class="interest-item">
+            <div class="interest-content">
+                <p>An Efficient Tree-Structure Hash: QuantaSylva Hash (QSH)</p>
+                <p>For more details and on-going researches, see Research Projects.</p>
+            </div>
+        </div>
+        </section>
+
+        <section id="interests">
+        <h2 class="section-title">Professional Activities:</h2>
+
+<!--         <div class="interest-item">
+            <div class="interest-content">
+                <h3>program commitee member</h3>
+                <p>Inscrypt 2026</p>
+            </div>
+        </div> -->
+
+        <div class="interest-item">
+            <div class="interest-content">
+                <h3> - program committee member</h3>
+                <p>Inscrypt 2026</p>
+                <h3> - community services</h3>
+                <p>general co-chairs of FSE 2026, and organizers of IACR spring school on symmetric cryptography (SoSC 2026)</p>
+                <h3> - subreviewer for conferences</h3>
+                <p>Eurocrypt 2027, ASIACRYPT 2026, Eurocrypt 2026, ASIACRYPT 2025, CRYPTO 2025, Inscrypt 2024, CRYPTO 2024, ASIACRYPT 2023, ICICS 2023, ASIACRYPT 2022, Inscrypt 2022</p>
+                <h3> - reviewer for journals</h3>
+                <p>IEEE Transactions on Information Theory, Discrete Applied Mathematics, Chinese Journal of Electronics</p>
+            </div>
+        </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

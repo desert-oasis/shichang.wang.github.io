@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Shichang Wang</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <nav class="navbar">
+        <span class="logo">Shichang Wang</span>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="publications.html" style="font-weight:bold; color:#000;">Publications</a>
+            <!-- <a href="#talks">Talks</a> -->
+            <!-- <a href="#teaching">Teaching</a> -->
+            <a href="research_project.html">Research Projects</a>
+            <a href="personal.html">Personal</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2 class="section-title">Publications</h2>
+
+        <div class="filter-tags">
+            <span class="filter-item active" onclick="filterSelection('all')">All</span>
+            <span class="filter-item" onclick="filterSelection('syncopation')">Syncopation</span>
+            <span class="filter-item" onclick="filterSelection('small-state-cipher')">Small-state ciphers</span>
+            <span class="filter-item" onclick="filterSelection('differential-linear')">Differential-linear</span>
+            <!-- <span class="filter-item" onclick="filterSelection('cube')">Cube</span> -->
+            <span class="filter-item" onclick="filterSelection('others')">Others</span>
+        </div>
+
+        <ul class="pub-container">
+            <li class="pub-item differential-linear">
+                <div class="pub-info">
+                    <span class="pub-title">Key-Recovery Attacks on Round-Reduced Twinkle</span>
+                    <span class="pub-authors">
+                        Jian Guo, Huina Li, <strong>Shichang Wang</strong>, Yiran Yao, Xiaobin Yu
+                        </span>
+                    <span class="pub-venue">IACR CiC 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <!-- <li class="pub-item cube"> -->
+            <li class="pub-item others">
+                <div class="pub-info">
+                    <span class="pub-title">Fast Correlation Cube Attacks: Application to Grain-128, Grain-128AEAD and Trivium</span>
+                    <span class="pub-authors">
+                        Haoran Li, Meicheng Liu, <strong>Shichang Wang</strong>, Willi Meier, Xiaobin Yu, and Dongdai Lin</span>
+                    <span class="pub-venue">ASIACRYPT 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item small-state-cipher">
+                <div class="pub-info">
+                    <span class="pub-title">Meet-in-the-Middle Attacks on Full ChiLow</span>
+                    <span class="pub-authors">
+                        Eran Lambooij, Patrick Neumann, Michiel Verbauwhede, <strong>Shichang Wang</strong>, and Tianyu Zhang</span>
+                    <span class="pub-venue">CRYPTO 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item syncopation">
+                <div class="pub-info">
+                    <span class="pub-title">Dual-Syncopation Meet-in-the-Middle Attacks: New Results on SHA-2 and MD5</span>
+                    <span class="pub-authors">Jian Guo, Haoran Li, Meicheng Liu, <strong>Shichang Wang</strong>, Tianyu Zhang</span>
+                    <span class="pub-venue">EUROCRYPT 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item differential-linear">
+                <div class="pub-info">
+                    <span class="pub-title">Differential-Linear Cryptanalysis from an Algebraic Perspective</span>
+                    <span class="pub-authors">Meicheng Liu, Chengan Hou, Xiaojuan Lu, <strong>Shichang Wang</strong>, Dongdai Lin</span>
+                    <span class="pub-venue">JoFC 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item differential-linear">
+                <div class="pub-info">
+                    <span class="pub-title">Revisiting Differential-Linear Cryptanalysis of Lightweight Cipher Schwaemm</span>
+                    <span class="pub-authors">Jiajun Zhou, Zhicheng Xiong, Zhenzhen Bao, Jian Guo, Qingju Wang, <strong>Shichang Wang</strong>, Meicheng Liu</span>
+                    <span class="pub-venue">Cybersecurity 2026</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <!-- <li class="pub-item cube"> -->
+            <li class="pub-item others">
+                <div class="pub-info">
+                    <span class="pub-title">Cube Attacks with Elimination Strategy: Key Recovery Attacks on Trivium</span>
+                    <span class="pub-authors">Haoran Li, <strong>Shichang Wang</strong>, Meicheng Liu, Willi Meier, Dongdai Lin</span>
+                    <span class="pub-venue">TOSC 2025</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item small-state-cipher">
+                <div class="pub-info">
+                    <span class="pub-title">Meet-in-the-middle attack on round-reduced SCARF under single pair-of-tweaks setting</span>
+                    <span class="pub-authors">	Siwei Chen, Kai Hu, Guozhen Liu, Zhongfeng Niu, Quan Quan Tan, <strong>Shichang Wang</strong></span>
+                    <span class="pub-venue">DCC 2025</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item differential-linear">
+                <div class="pub-info">
+                    <span class="pub-title">Differential-Linear Cryptanalysis of GIFT family and GIFT-based Ciphers</span>
+                    <span class="pub-authors"><strong>Shichang Wang</strong>, Meicheng Liu, Shiqi Hou, Dongdai Lin</span>
+                    <span class="pub-venue">IACR CiC 2024</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item others">
+                <div class="pub-info">
+                    <span class="pub-title">Revisiting Truncated Differential Attack from the Perspective of Equivalent Propagation Equations</span>
+                    <span class="pub-authors">Shiqi Hou, Muzhou Li, Kai Hu, <strong>Shichang Wang</strong>, Bart Preneel</span>
+                    <span class="pub-venue">Inscrypt 2024, <strong>Best Paper Award</strong></span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item others">
+                <div class="pub-info">
+                    <span class="pub-title">Truncated Differential Attacks On Symmetric Primitives With Linear Key Schedule: WARP And Orthros</span>
+                    <span class="pub-authors">Shiqi Hou, Baofeng Wu, <strong>Shichang Wang</strong>, Hao Guo, Dongdai Lin</span>
+                    <span class="pub-venue">The Computer Journal 2024</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item syncopation">
+                <div class="pub-info">
+                    <span class="pub-title">Moving a Step of ChaCha in Syncopated Rhythm</span>
+                    <span class="pub-authors"><strong>Shichang Wang</strong>, Meicheng Liu, Shiqi Hou, Dongdai Lin</span>
+                    <span class="pub-venue">CRYPTO 2023</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item small-state-cipher">
+                <div class="pub-info">
+                    <span class="pub-title">On Grain-Like Small State Stream Ciphers Against Fast Correlation Attacks: Cryptanalysis of Plantlet, Fruit-v2 and Fruit-80</span>
+                    <span class="pub-authors"><strong>Shichang Wang</strong>, Meicheng Liu, Dongdai Lin, Li Ma</span>
+                    <span class="pub-venue">The Computer Journal 2022</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item differential-linear">
+                <div class="pub-info">
+                    <span class="pub-title">Differential-Linear Cryptanalysis of the Lightweight Cryptographic Algorithm KNOT</span>
+                    <span class="pub-authors"><strong>Shichang Wang</strong>, Shiqi Hou, Meicheng Liu, Dongdai Lin</span>
+                    <span class="pub-venue">Inscrypt 2021</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="pub-container">
+            <li class="pub-item others">
+                <div class="pub-info">
+                    <span class="pub-title">Conditional Differential Cryptanalysis on Bagua</span>
+                    <span class="pub-authors">Xiaojuan Lu, Bohan Li, <strong>Shichang Wang</strong>, Dongdai Lin</span>
+                    <span class="pub-venue">SecITC 2021</span>
+                </div>
+                <div class="pub-icons">
+                    <a href="assets/pdf/paper.pdf">📄</a>
+                    <a href="javascript:void(0)" onclick="toggleBibtex('bib1')">”</a>
+                </div>
+                <div id="bib1" class="bibtex-box" style="display:none;">
+                    <pre>@inproceedings{...}</pre>
+                </div>
+            </li>
+        </ul>
+
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
